@@ -1,0 +1,63 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    margin: 10%; 
+    padding-top: 10%; 
+    padding-bottom: 10%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.form-check-input {
+    margin-top: 0.3em;
+    margin-left: 0em;
+    vertical-align: middle;
+}
+.card-img-top {
+    padding: 10%;
+    height: 10%;
+    object-fit: cover; 
+}
+body, h1 {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    background-color: #232B2B;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+}
+.status-online {
+    color: green; 
+}
+.status-offline {
+    color: red; 
+}
+.btn-custom {
+    background-color: #232B2B;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: rgba(0, 0, 0, 0.264);
+    color: white;
+}
+.card-link {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.card-link:hover,
+.card-link:focus,
+.card-link:active {
+    text-decoration: none; 
+    color: inherit;
+}
